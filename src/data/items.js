@@ -1,0 +1,1 @@
+module.exports={laptop:{name:'Laptop',price:2500,description:'Work equipment'},coffee:{name:'Coffee',price:80,description:'A quick refreshment'},backpack:{name:'Backpack',price:650,description:'Useful storage'},trophy:{name:'Trophy',price:5000,description:'Rare collectible'}};
