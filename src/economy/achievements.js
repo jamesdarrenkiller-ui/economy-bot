@@ -1,0 +1,1 @@
+const ACHIEVEMENTS=[{id:'first-1k',name:'First 1K',description:'Earn 1,000 Peso.'},{id:'worker-10',name:'Hard Worker',description:'Work 10 times.'},{id:'wealthy',name:'Wealthy',description:'Reach 10,000 Peso net worth.'}]; module.exports={ACHIEVEMENTS};
