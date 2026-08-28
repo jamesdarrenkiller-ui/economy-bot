@@ -1,0 +1,1 @@
+async function addItem(user,item,quantity=1){user.inventory.set(item,(user.inventory.get(item)||0)+quantity);return user;} async function removeItem(user,item,quantity=1){const n=(user.inventory.get(item)||0)-quantity;if(n>0)user.inventory.set(item,n);else user.inventory.delete(item);return user;} module.exports={addItem,removeItem};
