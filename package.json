@@ -1,0 +1,17 @@
+{
+  "name": "economy-bot",
+  "version": "1.0.0",
+  "description": "A modern Discord economy bot with env-only bot owners/admins and configurable command channels.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.1"
+  }
+}
