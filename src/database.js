@@ -40,4 +40,10 @@ function getGuild(guildId) {
   return db.guilds[guildId];
 }
 
-module.exports = { initDatabase, saveDatabase, getUser, getGuild };
+function getLeaderboard(limit = 10) {
+  return Object.entries(db.users)
+    .sort(([, a], [, b]) => (b.balance + b.bank) - (a.balance + a.bank))
+    .slice(0, limit);
+}
+
+module.exports = { initDatabase, saveDatabase, getUser, getGuild, getLeaderboard };
